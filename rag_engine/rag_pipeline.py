@@ -4,7 +4,7 @@ from openai import OpenAI
 import cohere
 
 # Initialise le client Cohere
-co = cohere.ClientV2("skA4meLOdsOqbU1F8uL37VMBiPOAUriS7GmFjOj6")
+co = cohere.ClientV2("your  cohere password")
 
 def get_rag_answer(question: str, model_name: str, document_name: str | None = None) -> str:
     
